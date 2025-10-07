@@ -21,7 +21,7 @@ Resources:
           USER_POOL_ID: "us-east-1_YYtQSezVz" # Substitua pelo seu User Pool ID
           CLIENT_ID: "camilarspoo@gmail.com"   # Substitua pelo seu App Client ID
 
-      # Define as permissões que a Lambda precisa para executard
+      # Define as permissões que a Lambda precisa para executar
       Policies:
         - Statement:
             - Effect: Allow
